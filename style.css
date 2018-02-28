@@ -1,0 +1,61 @@
+*{margin: 0;padding: 0;background-color: #fafafa;box-sizing: border-box;}
+a{text-decoration: none;}
+li{list-style: none;}
+ul{margin-bottom: 0;}
+header,.nav-top,.nav-bottom,.banner,main{min-width: 1200px;}
+/*header*/
+header{border-bottom: 1px solid #eaeaea;height: 32px;}
+header .container>ul>li{float: left;}
+header .container>ul>li a{line-height: 31px;padding:0;}
+header .container ul li a:focus,header .nav .open a:focus,header .container ul li a:hover{color:#f00;background-color: #fafafa;}
+header .container>ul>li{padding: 0 8px;}
+header .container .dropdown-menu a{padding-left: 8px;}
+header a,header .dropdown{font-size: 12px;color: #a4a4a4;}
+.header-left{margin: 0;float:left}
+.header-right{float: right;margin: 0;}
+/*nav-top*/
+.navbar{margin-bottom: 0;border: 0;}
+.nav-top{max-height: 70px;}
+.nav-top .navbar-brand{padding: 15px 15px 35px;height: 70px;}
+.nav-top .navbar-form{padding: 10px 15px;}
+.nav-top .btn.navbar-right{margin: 18px 15px;}
+.nav-top .btn-group{height: 70px;padding: 18px 0;}
+.nav-top i{display: block;height: 20px;width: 19px;background: url(image/icon2.png) -204px 0 no-repeat;}
+.nav-top .navbar-form i{background: url(image/icon11.png) -17px 0 no-repeat;}
+.nav-top .navbar-form .btn:hover{background-color: #515356;}
+.nav-top .navbar-form .btn:hover i{background: url(image/icon11.png) 0 0 no-repeat;}
+.nav-top .btn,.nav-top .form-control{border-radius: 0;}
+/*nav-bottom*/
+.nav-bottom,.nav-bottom .container{max-height: 50px;}
+.container{min-width: 1170px;}
+.nav-bottom,.nav-bottom .container,.nav-bottom .navbar-text,.nav-bottom img,.nav-bottom li a{border-radius: 0;background-color: #900;color: #fff;}
+.nav-bottom .navbar-brand{padding: 10px 0 20px;}
+.nav-bottom .navbar-nav,.navbar-text{float: left;}
+@media screen and (max-width:768px ) {
+	.nav-bottom .navbar-nav{margin: 7px 0 0;}
+}
+.nav-bottom .navbar-nav li{width: 150px;text-align: center;float:left;}
+.nav-bottom .navbar-nav li a{font-size: 16px;}
+.nav-bottom .navbar-nav li a:hover,.nav-bottom .navbar-nav li a:focus{background-color: #7b0000;}
+/*下拉菜单*/
+.nav-bottom-menu{background-color: #fff;height: 292px;position: absolute;top: 50px;width: 1200px;z-index: 10;}
+.nav-bottom-menu>p{height: 60px;margin-bottom: 0;padding: 20px 48px;background-color: transparent;}
+.nav-bottom-menu>p a{margin-right: 20px;color: #000;}
+.nav-bottom-menu .picture,.nav-bottom-menu .picture div{background-color: #fff;padding: 20px;text-align: center;}
+.nav-bottom-menu .picture div{float: left;}
+.nav-bottom-menu hr{margin: 0;}
+/*banner*/
+.banner .carousel-caption,.banner ol{background-color:  transparent ;}
+.banner .carousel-inner img{height: 450px;width: 1920px;}
+/*main*/
+/*华为精品*/
+.boutique .text-center:before{content:'';display: block;width: 24px;height: 4px;background: #900;margin: 0 auto;}
+.boutique .row1 .col-xs-6,.boutique .row2 .col-xs-4{padding: 0;}
+.boutique .row1 .col-xs-6:before{content:'';display: block;height: 4px;background-color: #900;position: absolute;width: 0;}
+.boutique .row1 .col-xs-6:hover:before{width: 100%;transition: width 0.4s;}
+.boutique .row1 .col-xs-6 a,.boutique .row2 .col-xs-4 a{padding: 0;border-radius: 0;}
+.boutique .row1 .col-xs-6 a:hover,.boutique .row2 .col-xs-4 a:hover,.boutique .row1 .col-xs-6 a:focus,.boutique .row2 .col-xs-4 a:focus{border-color:  #ddd;}
+.boutique .row2 .col-xs-4 a{margin-bottom: 0;}
+.boutique .navbar-right{width: 50%;height: 100%;position: absolute;right:0;top:0;background-color: rgba(10,10,10,0.6);color: #fff;padding: 15px;}
+.boutique .navbar-right h4,.boutique .navbar-right p,.boutique .navbar-right span{background-color:transparent;}
+.boutique .row2 .col-xs-4:hover .navbar-right{background-color: rgba(144,9,0,0.6);}
